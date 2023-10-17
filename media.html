@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 98vw;
+            height: 50px;
+            background-color: black;
+            display: flex;
+            color: aliceblue;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0px;
+            padding: 0px;
+        }
+        #child{
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        @media screen and (max-width:500px){
+            section{
+                display:flex;
+               flex-direction:column;
+               height: auto;
+               align-items: center;
+            }
+            #child{
+                display:flex;
+               flex-direction:column;
+               height: auto;
+               align-items: center;
+            }
+            
+        }
+    </style>
+
+</head>
+<body>
+    <section>
+        <div>
+            <h2>coding thinker</h2>
+        </div>
+        <div id="child">
+           <a> Home </a>
+           <a> Home </a>
+           <a> Home </a>
+           <a> Home </a>
+        </div>
+        <div>
+            <a>Login</a>
+        </div>
+    </section>
+    
+</body>
+</html>
